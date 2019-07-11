@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Single communication | Post Private Messages</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!------------------ Icons ------------------>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <!------------------ Font family ------------------>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+</head>
+
+<body id="body">
+    <div class="menu" style="padding:20px;">
+        <h2>POST PRIVATE MESSAGES</h2>
+        <a href="index.html">ALL COMMUN</a> |
+        <a href="info-message.html">INFO</a> |
+        <a href="single-commun.html" class="ppmess-select-on">SINGLE COMMUN</a> |
+        <a href="switch-messages.html">SWITCH</a> |
+        <a href="delete-commun.html">DELETE</a>
+    </div>
+    <div class="ppmess-frame">
+        <!-- info line -->
+        <div class="ppmess-info-line">
+            <div class="row-1">
+                <div class="column-1">
+                    Author of the post<span class="ppmess-color-3">User2</span>
+                    (post: <a href="#" class="dotted-link">Post name 1</a>)
+                    </br>
+                    Logged user<span class="ppmess-color-3">PetarB</span>
+                    <a href="#" class="dotted-link">LogOut ?</a>
+                </div><!-- user-info -->
+                <!-- post indicator -->
+                <div class="column-2" style="display:none;"></div>
+            </div><!-- row 1 -->
+        </div><!-- ppmess-info-line -->
+
+        <!-- button links -->
+        <div class="ppmess-navigation">
+            <div class="row-1">
+                <a class="ppmess-back-link ppmess-hover-1" href="#">Back</a>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div class="ppmess-messages">
+            <h4>Single communication</h4>
+            <div class="message mess-1 color-ppmess-1">
+                <div class="info-mess">
+                    <span>PetarB</span> | <span>29-Sep-2018</span> | <span>22:59</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-2 color-ppmess-2">
+                <div class="info-mess">
+                    <span>User2</span> | <span>29-Sep-2018</span> | <span>23:10</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-2 color-ppmess-2">
+                <div class="info-mess">
+                    <span>User2</span> | <span>30-Sep-2018</span> | <span>14:00</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-4 color-ppmess-1">
+                <div class="info-mess">
+                    <span>PetarB</span> | <span>30-Sep-2018</span> | <span>12:10</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-1 color-ppmess-1">
+                <div class="info-mess">
+                    <span>PetarB</span> | <span>29-Sep-2018</span> | <span>22:59</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-2 color-ppmess-2">
+                <div class="info-mess">
+                    <span>User2</span> | <span>29-Sep-2018</span> | <span>23:10</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-2 color-ppmess-2">
+                <div class="info-mess">
+                    <span>User2</span> | <span>30-Sep-2018</span> | <span>14:00</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+            <div class="message mess-4 color-ppmess-1">
+                <div class="info-mess">
+                    <span>PetarB</span> | <span>30-Sep-2018</span> | <span>12:10</span>
+                </div>
+                <div class="content-mess">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dicta magnam quaerat omnis nobis doloribus accusamus
+                </div>
+            </div>
+        </div><!-- ppmess messages -->
+
+        <div class="ppmess-form">
+
+            <div class="alert-info"></div>
+
+            <form id="ppmessNewMessForm" method="POST" action="">
+                <label for="ppmessMessageContent">
+                    <h4>Send private message</h4>
+                </label>
+                <textarea name="ppmess_message_content" type="text" id="ppmessMessageContent" rows="6" autofocus=""
+                    placeholder="Leave the message"></textarea>
+
+                <div class="single-commun-submit ppmess-button-frame">
+                    <a class="ppmess-tag-a ppmess-send-message ppmess-ajax ppmess-button-submit ppmess-hover-1"
+                        data-post_id="401" data-message_id="69" data-user2_id="2" data-current_user="1"
+                        data-message_content_id="ppmessMessageContent"
+                        href="http://localhost/golubarstvo/wp-admin/admin-ajax.php?action=ppmess_send_message&amp;post_id=401&amp;message_id=69&amp;user2_id=2&amp;current_user=1&amp;message_content_id=ppmessMessageContent">Send
+                        message</a>
+                </div>
+            </form>
+        </div><!-- form frame -->
+
+    </div><!-- ppmess-frame -->
+</body>
+
+</html>

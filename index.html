@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>All Communications | Post Private Messages</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!------------------ Icons ------------------>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <!------------------ Font family ------------------>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+</head>
+
+<body id="body">
+    <div class="menu" style="padding:20px;">
+        <h2>POST PRIVATE MESSAGES</h2>
+        <a href="index.html" class="ppmess-select-on">ALL COMMUN</a> |
+        <a href="info-message.html">INFO</a> |
+        <a href="single-commun.html">SINGLE COMMUN</a> |
+        <a href="switch-messages.html">SWITCH</a> |
+        <a href="delete-commun.html">DELETE</a>
+    </div>
+    <div class="ppmess-frame">
+        <!-- info line -->
+        <div class="ppmess-info-line">
+            <div class="row-1">
+                <div class="column-1">
+                    Loged user<span class="ppmess-color-3">User1</span>
+                    <a href="#" class="dotted-link">LogOut ?</a>
+                </div>
+                <div class="column-2">
+                    <span class="my-posts"></span>my posts <span class="sender-posts"></span>sender's posts
+                </div>
+            </div><!-- row 1 -->
+        </div><!-- ppmess-info-line -->
+
+        <!-- button links -->
+        <div class="ppmess-navigation">
+            <div class="row-1">
+                <a class="ppmess-back-link ppmess-hover-1" href="#">Back</a>
+            </div>
+        </div>
+
+        <!-- all comunications -->
+        <div class="ppmess-info" style="padding-bottom: 0;">
+            <h4 style="margin-bottom:0;">All communications</h4>
+        </div>
+        <div class="ppmess-communs">
+            <!-- header column -->
+            <div class="single-commun">
+                <div class="column column-1">Sender</div>
+                <div class="column column-2">Post title</div>
+                <div class="column column-3">Date</div>
+                <div class="column column-4">Status</div>
+                <div class="column column-5">Mark</div>
+                <div class="column column-6"><a>View</a></div>
+                <div class="column column-7"><a>Delete</a></div>
+            </div><!-- header column -->
+            <div class="single-commun ppmess-commun-1">
+                <div class="column column-1">User1</div>
+                <div class="column column-2">Title 1</div>
+                <div class="column column-3">14-02-2019</div>
+                <div class="column column-4 new-mess-icon">(2)</div>
+                <div class="column column-5"><span class="my-posts"></span></div>
+                <div class="column column-6 column-view"><a class="ppmess-hover-1" href="single-commun.html">View</a>
+                </div>
+                <div class="column column-7 column-delete"><a class="ppmess-hover-1"
+                        href="delete-commun.html">Delete</a></div>
+            </div>
+            <div class="single-commun ppmess-commun-2">
+                <div class="column column-1">User2</div>
+                <div class="column column-2">Title 2</div>
+                <div class="column column-3">14-02-2019</div>
+                <div class="column column-4 new-mess-icon">(2)</div>
+                <div class="column column-5"><span class="my-posts"></span></div>
+                <div class="column column-6 column-view"><a class="ppmess-hover-1" href="single-commun.html">View</a>
+                </div>
+                <div class="column column-7 column-delete"><a class="ppmess-hover-1"
+                        href="delete-commun.html">Delete</a></div>
+            </div>
+            <div class="single-commun ppmess-commun-3">
+                <div class="column column-1">User3</div>
+                <div class="column column-2">Title 3</div>
+                <div class="column column-3">14-02-2019</div>
+                <div class="column column-4">OK</div>
+                <div class="column column-5"><span class="sender-posts"></span></div>
+                <div class="column column-6 column-view"><a class="ppmess-hover-1" href="single-commun.html">View</a>
+                </div>
+                <div class="column column-7 column-delete"><a class="ppmess-hover-1"
+                        href="delete-commun.html">Delete</a></div>
+            </div>
+            <div class="single-commun ppmess-commun-4">
+                <div class="column column-1">User4</div>
+                <div class="column column-2">Title 1</div>
+                <div class="column column-3">14-02-2019</div>
+                <div class="column column-4">OK</div>
+                <div class="column column-5"><span class="sender-posts"></span></div>
+                <div class="column column-6 column-view"><a class="ppmess-hover-1" href="single-commun.html">View</a>
+                </div>
+                <div class="column column-7 column-delete"><a class="ppmess-hover-1"
+                        href="delete-commun.html">Delete</a></div>
+            </div>
+        </div><!-- ppmess-comuns -->
+    </div><!-- ppmess-frame -->
+</body>
+
+</html>

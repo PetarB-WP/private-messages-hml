@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Info messages | Post Private Messages</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <!------------------ Icons ------------------>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <!------------------ Font family ------------------>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+</head>
+
+<body id="body">
+    <div class="menu" style="padding:20px;">
+        <h2>POST PRIVATE MESSAGES</h2>
+        <a href="index.html">ALL COMMUN</a> |
+        <a href="info-message.html" class="ppmess-select-on">INFO</a> |
+        <a href="single-commun.html">SINGLE COMMUN</a> |
+        <a href="switch-messages.html">SWITCH</a> |
+        <a href="delete-commun.html">DELETE</a>
+    </div>
+    <div class="ppmess-frame">
+        <!-- info line -->
+        <div class="ppmess-info-line">
+            <div class="row-1">
+                <div class="column-1">
+                    Author of the post<span class="ppmess-color-3">User2</span>
+                    (post: <a href="#" class="dotted-link">Post name 1</a>)
+                    </br>
+                    Logged user<span class="ppmess-color-3">PetarB</span>
+                    <a href="#" class="dotted-link">LogOut ?</a>
+                </div><!-- user-info -->
+                <!-- post indicator -->
+                <div class="column-2" style="display:none;"></div>
+            </div><!-- row 1 -->
+        </div><!-- ppmess-info-line -->
+
+        <!-- back link -->
+        <div class="ppmess-navigation">
+            <div class="row-1">
+                <a class="ppmess-back-link ppmess-hover-1" href="#">Back</a>
+            </div>
+        </div>
+
+        <div class="ppmess-info">
+            <h4>Info messages</h4>
+            <div class="content-mess">
+                You must to be logged to see private message
+                <a href="#" class="dotted-link"><strong>Login</strong></a>
+            </div>
+            </br>
+            <div class="content-mess">
+                The logged user is the same as the author of the post, see the next page</br>
+                <a href="#" class="dotted-link"><strong>Private messages</strong></a>
+            </div>
+        </div>
+
+    </div><!-- ppmess-frame -->
+</body>
+
+</html>
