@@ -145,7 +145,7 @@
   background-color: #DDEAF9;
 }
 .ppmess-communs .single-commun:nth-child(odd) {
-  background-color: rgba(221, 234, 249, 0.5);
+  background-color: #b2cff1;
 }
 .ppmess-communs .single-commun .column {
   display: flex;
